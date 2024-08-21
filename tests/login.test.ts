@@ -15,6 +15,7 @@ test("Login test deom", async ()=>{
     await page.click("//input[@type='submit']");
     await page.waitForTimeout(5000);
 
+    //go to
     await page1.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/account");
     await page.waitForTimeout(5000);
 
