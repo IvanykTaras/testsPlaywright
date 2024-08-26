@@ -67,7 +67,7 @@
       "line": 0,
       "specs": [
         {
-          "title": "basic interaction",
+          "title": "Sum",
           "ok": true,
           "tags": [],
           "tests": [
@@ -79,29 +79,23 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 13,
                   "status": "passed",
-                  "duration": 1512,
+                  "duration": 1407,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "Please enter your Message\n"
-                    },
-                    {
-                      "text": "before entering\n"
-                    },
-                    {
-                      "text": "after enteringHi man\n"
+                      "text": "667\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-08-26T12:48:54.901Z",
+                  "startTime": "2024-08-26T14:32:18.559Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "c:\\Users\\taras\\Desktop\\Udemy\\playwritght\\test-results\\tests-basicinteraction-basic-interaction\\test-finished-1.png"
+                      "path": "c:\\Users\\taras\\Desktop\\Udemy\\playwritght\\test-results\\tests-basicinteraction-Sum\\test-finished-1.png"
                     }
                   ]
                 }
@@ -109,9 +103,9 @@
               "status": "expected"
             }
           ],
-          "id": "955916e1d65aa80ba13f-d4f3c7755db77508e3b3",
+          "id": "955916e1d65aa80ba13f-c6f8e5ab2f5ac213c64d",
           "file": "tests/basicinteraction.test.ts",
-          "line": 3,
+          "line": 13,
           "column": 5
         }
       ]
@@ -119,8 +113,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-08-26T12:48:53.633Z",
-    "duration": 3376.271000000008,
+    "startTime": "2024-08-26T14:32:17.288Z",
+    "duration": 3313.446000000462,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
