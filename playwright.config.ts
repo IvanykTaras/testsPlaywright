@@ -7,7 +7,7 @@ export default defineConfig({
     video: "off"
   },
 
-  testMatch: ["uploadDownload.test.ts"],
+  testMatch: ["basicinteraction.test.ts"],
   reporter: [["dot"], ["json", {
     outputFile: "jsonReports/jsonReport.json"
   }],["html", {
