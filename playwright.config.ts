@@ -1,13 +1,30 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
+  
+  projects:[
+    {
+      name:"chrome",
+      use:{
+        ...devices["Desktop Chrome"]
+      }
+    },
+    {
+      name:"firefox",
+      use:{
+        ...devices["Desktop Firefox"]
+      }
+    }
+  ],
+  
   use:{
+    baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",
     headless: false,
     screenshot: "on",
     video: "off"
   },
 
-  testMatch: ["basicinteraction.test.ts"],
+  // testMatch: ["pomtest/addToCart.test.ts"],
   reporter: [["dot"], ["json", {
     outputFile: "jsonReports/jsonReport.json"
   }],["html", {
